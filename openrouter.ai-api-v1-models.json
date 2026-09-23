@@ -1,6 +1,67 @@
 {
   "data": [
     {
+      "id": "stealth/space-bunny-alpha",
+      "canonical_slug": "stealth/space-bunny-alpha",
+      "hugging_face_id": null,
+      "name": "Space Bunny Alpha",
+      "created": 1790174884,
+      "description": "Space Bunny Alpha is an anonymous large model with blazing-fast inference, strong coding capabilities and native multimodal input support. It delivers adjustable reasoning effort, and a 1M-token context window. Space...",
+      "context_length": 1000000,
+      "architecture": {
+        "modality": "text+image+video->text",
+        "input_modalities": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "top_provider": {
+        "context_length": 1000000,
+        "max_completion_tokens": 524288,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": "2098-12-31",
+      "links": {
+        "details": "/api/v1/models/stealth/space-bunny-alpha/endpoints"
+      },
+      "reasoning": {
+        "mandatory": true,
+        "supported_efforts": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default_effort": "max"
+      }
+    },
+    {
       "id": "aion-labs/aion-3.5-mini",
       "canonical_slug": "aion-labs/aion-3.5-mini-20260923",
       "hugging_face_id": null,
@@ -17810,9 +17871,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000951432",
-        "completion": "0.000001902864",
-        "input_cache_read": "0.000000079286"
+        "prompt": "0.000000948126",
+        "completion": "0.000001896252",
+        "input_cache_read": "0.0000000790105"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -42300,7 +42361,7 @@
       }
     }
   ],
-  "total_count": 455,
+  "total_count": 456,
   "links": {
     "next": null
   }
